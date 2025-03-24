@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+      "coinpilot-dca-agent": {
+        "command": "/absolute/path/to/your/coinpilot-mcp-server/start-mcp-server.sh",
+        "env": {
+          "APTOS_PRIVATE_KEY": "your_private_key_here",
+          "COINPILOT_API": "http://localhost:8000/api"
+        },
+        "args": []
+      }
+    }
+  }
